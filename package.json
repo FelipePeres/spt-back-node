@@ -1,0 +1,31 @@
+{
+  "name": "spt-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "build-ts": "tsc",
+    "start": "npm run serve",
+    "serve": "node dist/main.js",
+    "watch-node": "nodemon dist/main.js",
+    "watch-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mongoose": "4.13.9",
+    "restify": "6.3.4",
+    "restify-cors-middleware": "1.1.0"
+  },
+  "devDependencies": {
+    "@types/mongoose": "4.7.32",
+    "@types/restify": "5.0.6",
+    "@types/restify-cors-middleware": "1.0.1"
+  },
+  "engines": {
+    "node": "8.12.0"
+  }
+}
